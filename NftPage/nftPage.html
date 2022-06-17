@@ -3,10 +3,10 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="nftPage.css" />
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="nftPage.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
@@ -23,15 +23,27 @@
             <img src="./img&video/nftpnglnk.png" alt="">
         </div> -->
 
+        <div class="logoImg">
+            <img src="img&video/imgElement/framesofasphodel.png" alt="">
+        </div>
+
         <section class="logo">
-            <a href="/artistPage/artistPage.html"><img class="brain" src="img&video/imgElement/brain.png" alt=""></a>
+            <a href="../artistPage/artistPage.html"><img class="brain" src="img&video/imgElement/brain.png" alt=""></a>
             <a href="../index.html"><img class="backMenu" src="img&video/imgElement/landingBack.png" alt=""></a>
             <div class="swan">
                 <a href="../ytPage/ytPage.html"><img src="img&video/imgElement/swan.png" alt=""></a>
             </div>
         </section>
 
-        <a href="../artistPage/artistPage.html"><img class="logo1" src="img/animeLogo.png" alt=""></a>
+        <!-- <a href="../artistPage/artistPage.html"><img class="logo1" src="../img/animeLogo.png" alt=""></a> -->
+
+        <video autoplay muted loop id="myVideo">
+            <source src="img&video/nftpage gradientbox.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video.
+        </video>
+
+        <img class="writeupImg" src="img&video/imgElement/nftpage writeup.png" alt="">
+
         <div class="seqImg">
             <img class="btn" src="img&video/imgElement/SEQFT0.png" data-toggle="modal" data-target="#seq0" alt="">
 
@@ -65,13 +77,13 @@
 
 
         <!-- Button trigger modal -->
-        <div class="bg">
+        <!-- <div class="bg">
             <video preload="none" autoplay muted loop>
                 <source src="img&video/nftpg bg f.mp4" type="video/mp4" />
                 Your browser does not support HTML5 video.
             </video>
 
-        </div>
+        </div> -->
 
         <div class="card1">
             <div class="face front">
@@ -84,8 +96,8 @@
 
 
         <div class="seqImgBottom">
-            <a href="https://opensea.io/collection/frames-of-asphodel-c-1" target="_blank"><img src="img&video/imgElement/colaNft.png" width="310px" alt=""></a>
-            <a href="https://foundation.app/collection/b-f253" target="_blank"><img src="img&video/imgElement/collectionb.png" width="310px" alt=""></a>
+            <a href="https://opensea.io/collection/frames-of-asphodel-c-1" target="_blank"><img src="img&video/imgElement/colaNft.png" alt=""></a>
+            <a href="https://foundation.app/collection/b-f253" target="_blank"><img src="img&video/imgElement/collectionb.png" alt=""></a>
         </div>
 
 
@@ -97,7 +109,7 @@
                 <div class="modal-content">
 
                     <div class="modal-body">
-                        <video class="lazy clip" src="./img&video/seqss/seq0.mp4" autoplay controls loop muted> </video>
+                        <video class="lazy" src="./img&video/seqss/seq0.mp4" autoplay loop muted> </video>
                     </div>
 
                 </div>
@@ -130,7 +142,7 @@
                 <div class="modal-content">
 
                     <div class="modal-body">
-                        <video class="lazy" src="./img&video/seqss/seq3.mp4" autoplay loop muted></video>
+                        <video class="lazy" src="img&video/seqss/seq3.mp4" autoplay loop muted></video>
                     </div>
 
                 </div>
@@ -163,7 +175,7 @@
                 <div class="modal-content">
 
                     <div class="modal-body">
-                        <video class="lazy clip" src="./img&video/seqss/seq6.mp4" autoplay loop muted></video>
+                        <video class="lazy" src="./img&video/seqss/seq6.mp4" autoplay loop muted></video>
                     </div>
 
                 </div>
@@ -196,14 +208,18 @@
                 <div class="modal-content">
 
                     <div class="modal-body">
-                        <video id="myVid" class="lazy" src="./img&video/seqss/seq9.mp4" autoplay muted></video>
+                        <video id="myVid" class="lazy" src="./img&video/seqss/seq9.mp4" autoplay loop muted></video>
                     </div>
 
                 </div>
             </div>
         </div>
 
-        <!-- </div> -->
+        <div class="koikoi">
+            <video src="./img&video/koi2.mp4" autoplay loop muted></video>
+        </div>
+
+        
 
     </div>
 
