@@ -228,13 +228,13 @@ h1{
 .seqImgBottom{
   position: absolute;
   z-index: 2;
-  bottom: -99em;
-  left: 8.7%;
+  bottom: -98.5em;
+  left: 8.5%;
   padding-left: 7px;
 }
 
 .seqImgBottom img{
-  width: 79%;
+  width: 72.5%;
   display: flex;
   padding-bottom: 40px;
  }
