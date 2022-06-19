@@ -228,7 +228,7 @@ h1{
 .seqImgBottom{
   position: absolute;
   z-index: 2;
-  bottom: -98.5em;
+  bottom: -209%;
   left: 8.5%;
   padding-left: 7px;
 }
