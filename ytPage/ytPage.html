@@ -9,11 +9,15 @@
   <link rel="stylesheet" href="ytPage.css" />
 </head>
 
-<body>
-  <div class="preloader"></div>
-  <div>
+<body onload="myFunction()">
+  <div id="preloader"></div>
+  <div class="header">
+    <div>
+      <video src="img&video/ytpage gradientbox.mp4" autoplay loop muted>Your browser does not support HTML5 video.</video>
+    </div>
+
     <div class="titleLogo">
-      <a href="../NftPage/nftPage.html"><img src="./img&video/imgElement/titleLogo.png" width="350" alt=""></a>
+      <a href="../NftPage/nftPage.html"><img src="./img&video/imgElement/titleLogo.png" alt=""></a>
     </div>
 
     <section class="logo">
@@ -35,18 +39,36 @@
         <h1>ASPHODEL</h1>
       </div> -->
   <div class="vid">
-    <iframe width="800" height="550" src="https://www.youtube.com/embed/NT8k6vwYTUk" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+    <div class="ytVid">
+      <iframe src="https://www.youtube.com/embed/NT8k6vwYTUk" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="dots">
+      <img src="./img&video/imgElement/youtubepage dots.png" alt="">
+    </div>
+    <!-- width="800" height="550" -->
   </div>
 
-  <video autoplay muted loop id="myVideo">
-    <source src="img&video/ytBG.mp4" type="video/mp4" />
-    Your browser does not support HTML5 video.
-  </video>
-  </div>
+  <!-- <div>
+    <video autoplay muted loop id="myVideo">
+      <source src="img&video/ytBG.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  </div> -->
 
-  <script src="/js/loader.js">  </script>
+  <script>
+    function myFunction() {
+            var preloader = document.getElementById('preloader')
+
+            preloader.style.display = 'none';
+            $(window).on("preloader", function () {
+
+                $("#preloader").fadeOut("slow")
+                $(".content").fadeIn("slow")
+            })
+        }
+  </script>
 </body>
 
 </html>
