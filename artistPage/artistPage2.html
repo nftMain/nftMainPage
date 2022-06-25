@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="artistPage2.css" />
+    <title>Artist Page</title>
+</head>
+<body onload="myFunction()">
+    <div id="preloader"></div>
+    <div class="content">
+
+        <div class="header">
+
+            <div class="gradient">
+                <video src="img&video/gradientbar-artistbox.mp4" autoplay loop muted>Your browser does not support HTML5 video.</video>
+            </div>
+
+        </div>
+
+        <div class="landingPage">
+            <a href="../index.html"><img class="backMenu" src="img&video/img/landingBack.png" alt=""></a>
+        </div>
+
+        <div class="main">
+
+            <div class="nftLinks">
+                <div class="logoImg">
+                    <a href="../NftPage/nftPage.html"><img src="img&video/img/titleFont1.png" alt="To Nft Page."></a>
+                </div>
+                <div class="socialsFooter">
+                    <a href="https://www.instagram.com/lihax_iknalox/" target="_blank">
+                        <img id="instaFooter" src="img&video/img/instaLink.png" alt="To instagram."></a>
+                    <a href="mailto:lihasiknalos@gmail.com" target="_blank">
+                        <img class="mailFooter" src="img&video/img/mailID.png" alt="Email."></a>
+                    <a href="#" target="_blank">
+                        <img class="behanceFooter" src="img&video/img/behancelink.png" alt="To instagram."></a>
+                </div>
+            </div>
+
+            <div class="ytLinks">
+                <div class="socialsImg">
+                    <a href="https://www.instagram.com/lihax_iknalox/" target="_blank">
+                        <img id="instaImg" src="img&video/img/instaLink.png" alt="To instagram."></a>
+                    <a href="mailto:lihasiknalos@gmail.com" target="_blank">
+                        <img class="mailImg" src="img&video/img/mailID.png" alt="Email."></a>
+                    <a href="#" target="_blank">
+                        <img class="behanceImg" src="img&video/img/behancelink.png" alt="To instagram."></a>  
+                </div>
+                <div class="swanImg">
+                    <a href="../ytPage/ytPage.html"><img src="./img&video/img/swan.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        PleaseRotateOptions = {
+            subMessage: "",
+            allowClickBypass: false
+        };
+    </script>
+    <script src="pleaserotate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function myFunction() {
+            var preloader = document.getElementById('preloader')
+            
+            preloader.style.display = 'none';
+            $(window).on("preloader", function () {
+                
+                $("#preloader").fadeOut("slow")
+                $(".content").fadeIn("slow")
+            })
+        }
+    </script>
+</body>
+</html>

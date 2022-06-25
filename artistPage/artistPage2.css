@@ -1,0 +1,268 @@
+@import url('http://fonts.cdnfonts.com/css/vogue');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+  
+html::-webkit-scrollbar{
+    width: 0;
+    height: 0
+}
+
+body{
+    background-color: #000;
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 480px) {
+
+    #preloader{
+        background: #000 url(../img/loading3.gif) no-repeat center center;
+        background-size: 20%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 10000000000;
+      }
+
+    .content{
+        background-image: url("img&video/img/artistpage writeup.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 5%;
+      }
+
+    .header{
+        position: relative;
+        z-index: -1;
+    }
+
+    .gradient video{
+        width: 100%;
+    }
+
+    .landingPage{
+        position: absolute;
+        top: 4%;
+        right: 3%;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nftLinks,.ytLinks{
+        width: 50%;
+    }
+
+    img.backMenu{
+        float: right;
+        width: 30%;
+    }
+
+    .logoImg img{
+        width: 66%;
+        margin-top: 16%;
+        margin-left: 7%;
+    }
+
+    .socialsFooter{
+        margin-top: 26.5%;
+        margin-left: 10%;
+    }
+
+    .socialsFooter img{
+        width: 4%;
+        margin: 0% 0.4%;
+    }
+
+    #instaFooter{
+        margin-bottom: -0.6%;
+    }
+
+    .socialsImg{
+        position: relative;
+        display: inline;
+        left: 9.5%;
+        top: -8%;
+    }
+
+    .socialsImg img{
+        width: 4%;
+        margin: 0% 0.4%;
+    }
+
+    #instaImg{
+        margin-bottom: -0.6%;
+    }
+
+    .swanImg img{
+        width: 30%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 520px){
+    
+    img.backMenu{
+        float: right;
+        width: 33%;
+    }
+
+    .socialsFooter{
+        margin-top: 27.5%;
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 580px){
+    img.backMenu{
+        float: right;
+        width: 36%;
+    }
+
+    .socialsFooter{
+        margin-top: 28.5%;
+        margin-left: 10%;
+    }
+
+    .socialsImg{
+        position: relative;
+        display: inline;
+        left: 9.5%;
+        top: -6%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 640px){
+    img.backMenu{
+        float: right;
+        width: 40%;
+    }
+
+    .socialsFooter{
+        margin-top: 29%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 720px){
+    img.backMenu{
+        float: right;
+        width: 44%;
+    }
+
+    .socialsImg{
+        position: relative;
+        display: inline;
+        left: 9.5%;
+        top: -5%;
+    }
+
+    .swanImg img{
+        width: 30%;
+        margin-left: 15%;
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 800px){
+    img.backMenu{
+        float: right;
+        width: 50%;
+    }
+
+    .socialsFooter{
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+
+    .socialsImg{
+        position: relative;
+        display: inline;
+        left: 9.5%;
+        top: -4%;
+    }
+
+    .swanImg img{
+        width: 30%;
+        margin-left: 15%;
+        margin-top: 8%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 900px){
+    .landingPage{
+        position: absolute;
+        top: 5%;
+        right: 3%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 970px){
+    img.backMenu{
+        float: right;
+        width: 55%;
+    }
+
+    .socialsFooter{
+        margin-top: 30.5%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 1100px){
+    .landingPage{
+        position: absolute;
+        top: 5%;
+        right: 4%;
+    }
+
+    img.backMenu{
+        float: right;
+        width: 60%;
+    }
+
+    .socialsFooter{
+        margin-top: 31%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 1200px){
+    .landingPage{
+        position: absolute;
+        top: 6%;
+        right: 4%;
+    }
+
+    img.backMenu{
+        float: right;
+        width: 65%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-device-width: 1400px){
+    .landingPage{
+        position: absolute;
+        top: 7%;
+        right: 4%;
+    }
+
+    img.backMenu{
+        float: right;
+        width: 70%;
+    }
+}
