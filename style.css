@@ -25,7 +25,7 @@ html,body,.content{
     height: 100%;
 }
 
-@media only screen and (orientation: landscape) and (min-device-width: 480px){
+@media only screen and (orientation: landscape) and (min-width: 480px) and (min-height: 210px){
     #preloader{
         background: #000 url("img/loading3.gif") no-repeat center center;
         background-size: 20%;
@@ -35,27 +35,26 @@ html,body,.content{
         z-index: 10000000000;
       }
 
-    .content>video{
+      body>video{
+        position: absolute;
         width: 100%;
         height: 100%;
-        position: absolute;
         object-fit: cover;
         z-index: -1;
-    }
+      }
 
     .header{
         position: relative;
-        right: 11.4%;
+        right: 11%;
     }
 
     .header img{
-        width: 13.6%;
+        width: 12.3%;
         float: right;
     }
 
     .main{
         width: 100%;
-        height: 65%;
         display: flex;
         justify-content: space-around;
     }
@@ -70,23 +69,1897 @@ html,body,.content{
 
     .nftImg video{
         position: relative;
-        width: 55%;
-        left: 5%;
+        width: 46%;
+        left: 7%;
         top: -5%;
     }
 
     .nftImg img{
         position: absolute;
-        width: 68%;
+        width: 56%;
         top: 17%;
-        left: 6.4%;
+        left: 8.4%;
+    }
+
+    .swanImg img{
+        position: relative;
+        width: 28%;
+        left: 52%;
+        top: 29%;
+    }
+
+}
+
+@media only screen and (orientation: landscape) and (min-width: 480px) and (min-height: 240px){
+    .header{
+        position: relative;
+        right: 11.5%;
+    }
+
+    .header img{
+        width: 13.5%;
+        float: right;
+    }
+
+    .nftImg video{
+        position: relative;
+        width: 52%;
+        left: 8%;
+        top: -4%;
+    }
+
+    .nftImg img{
+        position: absolute;
+        width: 63.5%;
+        top: 17%;
+        left: 9.5%;   
     }
 
     .swanImg img{
         position: relative;
         width: 31%;
-        left: 49%;
-        top: 28%;
+        left: 48%;
+        top: 31%;    
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 480px) and (min-height: 265px){
+    .header{
+        position: relative;
+        right: 7.4%;
     }
 
+    .header img {
+        width: 15.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 59%;
+        left: 7%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 72%;
+        top: 15.5%;
+        left: 8.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 53%;
+        top: 29.5%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 520px) and (min-height: 210px){
+    .header {
+        position: relative;
+        right: 17.9%;
+    }
+
+    .header img {
+        width: 11%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 44%;
+        left: 15%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 53%;
+        top: 16%;
+        left: 16.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 25%;
+        left: 40%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 520px) and (min-height: 230px){
+    .header {
+        position: relative;
+        right: 13%;
+    }
+
+    .header img {
+        width: 13%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 45%;
+        left: 12%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 54%;
+        top: 15%;
+        left: 13.6%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 28%;
+        left: 46%;
+        top: 27%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 520px) and (min-height: 260px){
+    .header {
+        position: relative;
+        right: 11.6%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 52%;
+        left: 9%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 63%;
+        top: 14.6%;
+        left: 10.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 32.5%;
+        left: 45%;
+        top: 27%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 520px) and (min-height: 290px){
+    .header {
+        position: relative;
+        right: 7%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 58%;
+        left: 6%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 70%;
+        top: 15.5%;
+        left: 8%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 33.5%;
+        left: 52%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 560px) and (min-height: 230px){
+    .nftImg video {
+        position: relative;
+        width: 47%;
+        left: 13%;
+        top: -16%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 57%;
+        top: 7%;
+        left: 14.6%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 28%;
+        left: 46%;
+        top: 23%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 560px) and (min-height: 250px){
+    .header {
+        position: relative;
+        right: 13%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 48%;
+        left: 11%;
+        top: -12%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 59%;
+        top: 9%;
+        left: 12.2%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 44%;
+        top: 23%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 560px) and (min-height: 280px){
+    .header {
+        position: relative;
+        right: 11.6%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 55%;
+        left: 8%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 67%;
+        top: 12%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 32%;
+        left: 44%;
+        top: 26%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 560px) and (min-height: 310px){
+    .header {
+        position: relative;
+        right: 7.3%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 59%;
+        left: 8%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 72%;
+        top: 11.5%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 34%;
+        left: 52%;
+        top: 27%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 560px) and (min-height: 340px){
+    .header {
+        position: relative;
+        right: 3.6%;
+    }
+    
+    .header img {
+        width: 17.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 61%;
+        left: 5%;
+        top: -8%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 75%;
+        top: 14%;
+        left: 7%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 37%;
+        left: 56%;
+        top: 29%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 230px){
+    .header {
+        position: relative;
+        right: 15%;
+    }
+
+    .header img {
+        width: 12%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 43%;
+        left: 13%;
+        top: -17%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 52%;
+        top: 4.5%;
+        left: 14.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 25%;
+        left: 45%;
+        top: 19%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 250px){
+    .header {
+        position: relative;
+        right: 14%;
+    }
+
+    .header img {
+        width: 13%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 45%;
+        left: 10%;
+        top: -15%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 55%;
+        top: 6%;
+        left: 11%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 27%;
+        left: 45%;
+        top: 20%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 280px){
+    .header {
+        position: relative;
+        right: 11%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 9%;
+        top: -12%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61%;
+        top: 9%;
+        left: 10.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 29%;
+        left: 49%;
+        top: 22%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 320px){
+    .header {
+        position: relative;
+        right: 8%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+
+    .nftImg video {
+        position: relative;
+        width: 55%;
+        left: 9%;
+        top: -9%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 67%;
+        top: 13%;
+        left: 10.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 34%;
+        left: 50%;
+        top: 24%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 350px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 60%;
+        left: 5%;
+        top: -9%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 74%;
+        top: 12.5%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 36%;
+        left: 56%;
+        top: 25%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 610px) and (min-height: 380px){
+    .header {
+        position: relative;
+        right: 2%;
+    }
+
+    .header img {
+        width: 18%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 61%;
+        left: 3%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 75%;
+        top: 16%;
+        left: 4.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 38%;
+        left: 57%;
+        top: 29%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 250px){
+    .header {
+        position: relative;
+        right: 14%;
+    }
+
+    .header img {
+        width: 12%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 43%;
+        left: 13%;
+        top: -16%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 52%;
+        top: 5%;
+        left: 14%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 25%;
+        left: 48%;
+        top: 20%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 250px){
+    .header {
+        position: relative;
+        right: 14.5%;
+    }
+
+    .header img {
+        width: 13%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 46%;
+        left: 10%;
+        top: -16%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 56.5%;
+        top: 5.5%;
+        left: 11%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 27%;
+        left: 44%;
+        top: 19%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 300px){
+    .header {
+        position: relative;
+        right: 11.5%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 8%;
+        top: -14%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 60.5%;
+        top: 8%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 48%;
+        top: 21%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 340px){
+    .header {
+        position: relative;
+        right: 8.5%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 56%;
+        left: 8%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 68%;
+        top: 11.5%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 32%;
+        left: 52%;
+        top: 25%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 390px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 63%;
+        left: 3.5%;
+        top: -7%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 77%;
+        top: 14.5%;
+        left: 5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 56%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 660px) and (min-height: 420px){
+    .header {
+        position: relative;
+        right: 2.5%;
+    }
+
+    .header img {
+        width: 18%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 62%;
+        left: 2%;
+        top: -2%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 77%;
+        top: 19%;
+        left: 3.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 38%;
+        left: 56%;
+        top: 34%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 710px) and (min-height: 270px){
+    .header {
+        position: relative;
+        right: 13.5%;
+    }
+
+    .header img {
+        width: 12%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 44%;
+        left: 10%;
+        top: -15%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 54%;
+        top: 6.5%;
+        left: 11%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 26%;
+        left: 48%;
+        top: 19.5%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 710px) and (min-height: 300px){
+    .header {
+        position: relative;
+        right: 13.5%;
+    }
+
+    .header img {
+        width: 13%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 45%;
+        left: 10%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 55%;
+        top: 11%;
+        left: 11%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 28%;
+        left: 45.5%;
+        top: 22.5%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 710px) and (min-height: 350px){
+    .header {
+        position: relative;
+        right: 8%;
+    }
+
+    .header img {
+        width: 15.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 9%;
+        top: -7%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61%;
+        top: 14.5%;
+        left: 10.5%;
+    }
+    
+    .swanImg img {
+        position: relative;
+        width: 32%;
+        left: 52%;
+        top: 26.5%;
+    }    
+}
+
+@media only screen and (orientation: landscape) and (min-width: 710px) and (min-height: 420px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 55%;
+        left: 5%;
+        top: 4%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 67%;
+        top: 26%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 57%;
+        top: 38%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 760px) and (min-height: 300px){
+    .header {
+        position: relative;
+        right: 13.5%;
+    }
+
+    .header img {
+        width: 12.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 43%;
+        left: 15%;
+        top: -9%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 52%;
+        top: 13%;
+        left: 16%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 27%;
+        left: 47%;
+        top: 23%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 760px) and (min-height: 350px){
+    .header {
+        position: relative;
+        right: 11%;
+    }
+
+    .header img {
+        width: 14.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 46%;
+        left: 11%;
+        top: -7%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 56%;
+        top: 14%;
+        left: 12%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 49%;
+        top: 26%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 760px) and (min-height: 420px){
+    .header {
+        position: relative;
+        right: 6%;
+    }
+
+    .header img {
+        width: 17.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 54%;
+        left: 7%;
+        top: -4%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 66%;
+        top: 18%;
+        left: 8.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 34%;
+        left: 51.5%;
+        top: 29%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 760px) and (min-height: 500px){
+    .header {
+        position: relative;
+        right: 3%;
+    }
+
+    .header img {
+        width: 19.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 57%;
+        left: 5%;
+        top: 2%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 70%;
+        top: 24%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 39%;
+        left: 53.5%;
+        top: 36%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 820px) and (min-height: 350px){
+    .header {
+        position: relative;
+        right: 11%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 48%;
+        left: 10%;
+        top: -14%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 59.5%;
+        top: 7.5%;
+        left: 11%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 29%;
+        left: 49%;
+        top: 21%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 820px) and (min-height: 400px){
+    .header {
+        position: relative;
+        right: 9%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 8%;
+        top: -8%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61.5%;
+        top: 13.5%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 31%;
+        left: 51%;
+        top: 26%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 820px) and (min-height: 460px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 57%;
+        left: 6%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 70%;
+        top: 15.5%;
+        left: 7.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 56%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 820px) and (min-height: 520px){
+    .header {
+        position: relative;
+        right: 2%;
+    }
+
+    .header img {
+        width: 19.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 61%;
+        left: 3%;
+        top: -3%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 75%;
+        top: 18.5%;
+        left: 4.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 38%;
+        left: 54%;
+        top: 33%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 880px) and (min-height: 360px){
+    .header {
+        position: relative;
+        right: 13%;
+    }
+
+    .header img {
+        width: 13%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 45%;
+        left: 12%;
+        top: -13%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 56%;
+        top: 8%;
+        left: 13%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 28%;
+        left: 46%;
+        top: 22%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 880px) and (min-height: 410px){
+    .header {
+        position: relative;
+        right: 10%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 9%;
+        top: -8%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61%;
+        top: 13.5%;
+        left: 10.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 50%;
+        top: 26%;
+    }
+    
+    
+}
+
+@media only screen and (orientation: landscape) and (min-width: 880px) and (min-height: 480px){
+    .header {
+        position: relative;
+        right: 5%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 55%;
+        left: 6%;
+        top: -4%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 68%;
+        top: 17.5%;
+        left: 7.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 33%;
+        left: 56%;
+        top: 31%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 880px) and (min-height: 550px){
+    .header {
+        position: relative;
+        right: 2%;
+    }
+
+    .header img {
+        width: 19%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 61%;
+        left: 3%;
+        top: -3%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 75%;
+        top: 19%;
+        left: 4.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 37%;
+        left: 57%;
+        top: 33%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 950px) and (min-height: 410px){
+    .header {
+        position: relative;
+        right: 12%;
+    }
+
+    .header img {
+        width: 13.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 46%;
+        left: 13%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 56%;
+        top: 11.5%;
+        left: 14%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 28%;
+        left: 47.5%;
+        top: 26%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 950px) and (min-height: 470px){
+    .header {
+        position: relative;
+        right: 8%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 8%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 62%;
+        top: 17%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 31%;
+        left: 52.5%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 950px) and (min-height: 560px){
+    .header {
+        position: relative;
+        right: 3%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 58%;
+        left: 5%;
+        top: -1%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 72%;
+        top: 20.5%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 59%;
+        top: 36%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1020px) and (min-height: 470px){
+    .header {
+        position: relative;
+        right: 12%;
+    }
+
+    .header img {
+        width: 13.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 49%;
+        left: 11%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61%;
+        top: 16.5%;
+        left: 12%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 47.5%;
+        top: 29%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1020px) and (min-height: 550px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 53%;
+        left: 8%;
+        top: -7%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 65%;
+        top: 15%;
+        left: 9.5%;
+    }
+    
+    .swanImg img {
+        position: relative;
+        width: 33%;
+        left: 55.5%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1020px) and (min-height: 630px){
+    .header {
+        position: relative;
+        right: 2.5%;
+    }
+
+    .header img {
+        width: 18%;
+        float: right;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 74%;
+        top: 17.5%;
+        left: 6%;
+    }
+    .nftImg video {
+        position: relative;
+        width: 60%;
+        left: 4%;
+        top: -4%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 35%;
+        left: 57.5%;
+        top: 32%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1100px) and (min-height: 550px){
+    .header {
+        position: relative;
+        right: 6%;
+    }
+
+    .header img {
+        width: 16.5%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 54%;
+        left: 10%;
+        top: -10%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 67%;
+        top: 12%;
+        left: 11.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 32%;
+        left: 54.5%;
+        top: 28%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1100px) and (min-height: 670px){
+    .header {
+        position: relative;
+        right: 3%;
+    }
+
+    .header img {
+        width: 18%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 61%;
+        left: 4%;
+        top: -1%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 75%;
+        top: 20.5%;
+        left: 6%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 36%;
+        left: 56%;
+        top: 35%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1100px) and (min-height: 790px){
+    .header {
+        position: relative;
+        right: 2%;
+    }
+
+    .header img {
+        width: 21%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 59%;
+        left: 2%;
+        top: 3%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 73%;
+        top: 25%;
+        left: 3.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 40%;
+        left: 54%;
+        top: 40%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1200px) and (min-height: 550px){
+    .header {
+        position: relative;
+        right: 10%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 10%;
+        top: -12%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 61%;
+        top: 10%;
+        left: 11.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 30%;
+        left: 49%;
+        top: 25%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1200px) and (min-height: 670px){
+    .header {
+        position: relative;
+        right: 4%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 59%;
+        left: 5%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 73%;
+        top: 16.5%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 34%;
+        left: 58%;
+        top: 34%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1200px) and (min-height: 770px){
+    .header {
+        position: relative;
+        right: 1%;
+    }
+
+    .header img {
+        width: 20%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 60%;
+        left: 2%;
+        top: -4%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 74%;
+        top: 17.5%;
+        left: 3.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 37%;
+        left: 56%;
+        top: 36%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1350px) and (min-height: 670px){
+    .header {
+        position: relative;
+        right: 8%;
+    }
+
+    .header img {
+        width: 15%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 53%;
+        left: 8%;
+        top: -7%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 66%;
+        top: 14%;
+        left: 9%;
+    }
+    
+    .swanImg img {
+        position: relative;
+        width: 31%;
+        left: 53%;
+        top: 30%;
+    }
+    
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1350px) and (min-height: 770px){
+    .header {
+        position: relative;
+        right: 3%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 56%;
+        left: 5%;
+        top: -5%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 69%;
+        top: 16.5%;
+        left: 6.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 34%;
+        left: 58%;
+        top: 33%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1350px) and (min-height: 880px){
+    .header {
+        position: relative;
+        right: 2%;
+    }
+
+    .header img {
+        width: 19%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 57%;
+        left: 4%;
+        top: -1%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 70%;
+        top: 21%;
+        left: 5.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 36%;
+        left: 56%;
+        top: 37%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1500px) and (min-height: 710px){
+    .header {
+        position: relative;
+        right: 11%;
+    }
+
+    .header img {
+        width: 14%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 50%;
+        left: 8%;
+        top: -8%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 62%;
+        top: 13.5%;
+        left: 9.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 29%;
+        left: 49%;
+        top: 30%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1500px) and (min-height: 790px){
+    .header {
+        position: relative;
+        right: 6%;
+    }
+
+    .header img {
+        width: 16%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 52%;
+        left: 7%;
+        top: -6%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 64%;
+        top: 15.5%;
+        left: 8.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 32%;
+        left: 54%;
+        top: 31%;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1500px) and (min-height: 890px){
+    .header {
+        position: relative;
+        right: 3%;
+    }
+
+    .header img {
+        width: 17%;
+        float: right;
+    }
+
+    .nftImg video {
+        position: relative;
+        width: 56%;
+        left: 6%;
+        top: -1%;
+    }
+
+    .nftImg img {
+        position: absolute;
+        width: 69%;
+        top: 20.5%;
+        left: 7.5%;
+    }
+
+    .swanImg img {
+        position: relative;
+        width: 33%;
+        left: 58%;
+        top: 35%;
+    }
 }
