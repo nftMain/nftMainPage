@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="ytPage.css" />
     <title>Animation</title>
 </head>
-<body>
+<body onload="myFunction()">
     <div class="content">
         <div id="preloader"></div>
         <div class="header">
@@ -36,6 +36,27 @@
             </div>
         </div>
     </div>
+
+    <script>
+        PleaseRotateOptions = {
+            subMessage: "",
+            allowClickBypass: false
+        };
+    </script>
+    <script src="../js/pleaserotate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function myFunction() {
+            var preloader = document.getElementById('preloader')
+            
+            preloader.style.display = 'none';
+            $(window).on("preloader", function () {
+                
+                $("#preloader").fadeOut("slow")
+                $(".content").fadeIn("slow")
+            })
+        }
+    </script>
 
 </body>
 </html>
